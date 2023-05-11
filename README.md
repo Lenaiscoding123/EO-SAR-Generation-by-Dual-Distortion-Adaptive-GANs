@@ -21,7 +21,7 @@ For more details, please refer to our [orginal paper](https://www.mdpi.com/2072-
 ## Usage
 ### Training
 If you want to train the model
-1. `git clone git@github.com:Lenaiscoding123/EO-SAR-Generation-by-Dual-Distortion-Adaptive-GANs.git`
+1. `git clone https://github.com/Lenaiscoding123/EO-SAR-Generation-by-Dual-Distortion-Adaptive-GANs.git`
 2. download the training data [SN6-SAROPT ](https://drive.google.com/drive/folders/1lAhwnO-nePM2X61MEB0eazdNlMmYJegi?usp=share_link) or other EO-SAR datasets (e.g., SEN1-2)
 3. unzip and put the downloaded images to the corresponding path:
 ```
