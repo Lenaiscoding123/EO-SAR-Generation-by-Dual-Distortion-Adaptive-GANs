@@ -1,0 +1,27 @@
+#####
+name: CycleGan
+
+port: 6019   #  port parameters
+save_root: './output/SN6_V2/'
+image_save: './output/SN6_V2/img/'
+
+# lamda weight
+Adv_lamda: 1
+Cyc_lamda: 10
+Corr_lamda: 20
+Smooth_lamda: 10
+
+
+epoch: 0        # starting epoch
+n_epochs: 80       # How often do you want to display output images during training
+batchSize: 1               # size of the batches
+dataroot: './data/SN6_V2/TRAIN'
+val_dataroot: './data/SN6_V2/VAL'
+lr: 0.0001                   # initial learning rate
+decay_epoch: 20            # epoch to start linearly decaying the learning rate to 0
+size: 512                # size of the data crop
+input_nc: 3         
+output_nc: 3                  
+cuda: True                
+n_cpu: 1
+
